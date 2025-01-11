@@ -20,7 +20,7 @@ Movie Seat Booking Web App is a responsive web application designed for Sugarlan
 
 1. Select a Movie: Use the dropdown menu to choose a movie. Each movie has a different base ticket price.
 2. View Seat Map: Check the interactive seat map to view available, occupied, and selected seats.
-  - Gold Section: Premium seats with a 50% higher price.
+- Gold Section: Premium seats with a 50% higher price.
   - Silver Section: Standard seats with the base price.
 3. Reserve Seats:
   - Click on available seats to select them.
