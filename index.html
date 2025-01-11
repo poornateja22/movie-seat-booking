@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sugarland Theaters - Seat Booking</title>
+    <link rel="icon" type="image/x-icon" href="movie-favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="selection">
+
+      <div class="movie-container">
+        <label> Select a movie:</label>
+        <select id="movie">
+          <option value="1200">Oppenheimer (Rs.1200)</option>
+          <option value="1100">Barbie (Rs.1100)</option>
+          <option value="700">Jawaan (Rs.700)</option>
+          <option value="800">Mission Impossible 7 (Rs.800)</option>
+        </select>
+      </div>
+
+
+      <div class="container">
+        <!-- Legend -->
+        <div class="legend">
+          <div class="legend-item">
+            <div class="legend-box" style="background-color: #e0e0ff"></div>
+            <span>Available</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-box" style="background-color: #4caf50"></div>
+            <span>Selected</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-box" style="background-color: #ccc"></div>
+            <span>Occupied</span>
+          </div>
+        </div>
+
+        <div class="screen"></div>
+
+        <!-- Seat Map -->
+        <div class="seat-map">
+          <!-- Areas will be populated here -->
+        </div>
+      </div>
+
+
+      <!-- Booking Summary -->
+      <div class="booking-summary">
+        <p>You have selected <span class="p-text" id="count">0</span> seats</p>
+        <p>Selected Seats: <span class="p-text" id="selected-seats"></span></p> 
+        <p>Total Price Rs. <span class="p-text" id="total"></span></p> 
+        <button class="book-button">Book Selected Seats</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
